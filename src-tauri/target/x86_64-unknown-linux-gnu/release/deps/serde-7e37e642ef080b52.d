@@ -1,0 +1,14 @@
+/home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/deps/serde-7e37e642ef080b52.d: /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/build/serde-751d42ef86d01e56/out/private.rs
+
+/home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/deps/libserde-7e37e642ef080b52.rlib: /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/build/serde-751d42ef86d01e56/out/private.rs
+
+/home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/deps/libserde-7e37e642ef080b52.rmeta: /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/build/serde-751d42ef86d01e56/out/private.rs
+
+/home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/user/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/build/serde-751d42ef86d01e56/out/private.rs:
+
+# env-dep:OUT_DIR=/home/user/Documents/virtual-windchime/src-tauri/target/x86_64-unknown-linux-gnu/release/build/serde-751d42ef86d01e56/out
