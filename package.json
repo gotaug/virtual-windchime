@@ -1,7 +1,7 @@
 {
-	"name": "agent-e9a20c23-bed4-4173-9f6e-4a0013c41c76",
+	"name": "virtual-windchime",
 	"private": true,
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",

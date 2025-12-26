@@ -1,22 +1,27 @@
-# sv
+# Virtual Windchime
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A virtual windchime application built with Tauri and SvelteKit. Plays random chime sounds at configurable intervals.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Random chime sounds using pentatonic scale for pleasant audio
+- Adjustable frequency slider (1-20 seconds average between chimes)
+- Start/Stop controls
+- Clean, responsive UI with DaisyUI components
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Version 0.2.0 Changes
 
-# create a new project in my-app
-npx sv create my-app
-```
+- Fixed accessibility issue by properly associating label with input control
+- Updated to Svelte 5 syntax (using `onclick` instead of `on:click`)
+- Added proper AudioContext initialization with user gesture handling
+- Implemented cleanup on component destroy to prevent memory leaks
+- Added error handling for audio operations
+- Improved chime sound with longer decay (2 seconds) and pentatonic scale
+- Added visual feedback for audio initialization state
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've installed dependencies with `npm install`, start a development server:
 
 ```sh
 npm run dev
@@ -35,4 +40,23 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Tauri Development
+
+To run the Tauri desktop app in development mode:
+
+```sh
+npm run tauri dev
+```
+
+To build the Tauri desktop app for production:
+
+```sh
+npm run tauri build
+```
+
+## Technical Details
+
+- **Frontend**: SvelteKit with Svelte 5
+- **Styling**: Tailwind CSS with DaisyUI
+- **Desktop**: Tauri 2.x
+- **Audio**: Web Audio API
