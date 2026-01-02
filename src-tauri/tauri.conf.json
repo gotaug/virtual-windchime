@@ -17,6 +17,9 @@
     "linux": {
       "deb": {
         "depends": []
+      },
+      "appimage": {
+        "bundleMediaFramework": false
       }
     },
     "externalBin": [],

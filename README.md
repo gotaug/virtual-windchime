@@ -18,6 +18,7 @@ A virtual windchime application built with Tauri and SvelteKit. Plays random chi
 - Added error handling for audio operations
 - Improved chime sound with longer decay (2 seconds) and pentatonic scale
 - Added visual feedback for audio initialization state
+- Fixed AppImage build issue by disabling binary stripping (NO_STRIP=1)
 
 ## Developing
 
@@ -51,8 +52,10 @@ npm run tauri dev
 To build the Tauri desktop app for production:
 
 ```sh
-npm run tauri build
+npm run tauri:build
 ```
+
+Note: The build uses `NO_STRIP=1` to avoid issues with newer binary formats on Arch Linux.
 
 ## Technical Details
 
